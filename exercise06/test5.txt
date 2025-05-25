@@ -1,0 +1,26 @@
+--- Test5: Interior Parabola ------
+Size,Alg,Prefilter,Time(ms)
+1000,Graham,no,0.746
+1000,Graham,si,0.697
+1000,Jarvis,no,0.630
+1000,Jarvis,si,0.563
+10000,Graham,no,7.354
+10000,Graham,si,6.077
+10000,Jarvis,no,5.816
+10000,Jarvis,si,5.403
+100000,Graham,no,76.949
+100000,Graham,si,44.589
+100000,Jarvis,no,52.515
+100000,Jarvis,si,48.720
+1000000,Graham,no,479.149
+1000000,Graham,si,348.972
+1000000,Jarvis,no,1963.635
+1000000,Jarvis,si,1156.567
+2000000,Graham,no,999.636
+2000000,Graham,si,692.402
+2000000,Jarvis,no,6741.894
+2000000,Jarvis,si,3741.215
+5000000,Graham,no,2628.949
+5000000,Graham,si,1934.486
+5000000,Jarvis,no,43717.250
+5000000,Jarvis,si,25716.280

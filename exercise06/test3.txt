@@ -1,0 +1,26 @@
+--- Test3: Rectangle Inside ------
+Size,Alg,Prefilter,Time(ms)
+1000,Graham,no,0.752
+1000,Graham,si,0.499
+1000,Jarvis,no,0.523
+1000,Jarvis,si,0.419
+10000,Graham,no,7.477
+10000,Graham,si,4.548
+10000,Jarvis,no,5.868
+10000,Jarvis,si,4.211
+100000,Graham,no,49.325
+100000,Graham,si,41.489
+100000,Jarvis,no,55.628
+100000,Jarvis,si,47.825
+1000000,Graham,no,503.735
+1000000,Graham,si,185.905
+1000000,Jarvis,no,605.519
+1000000,Jarvis,si,213.495
+2000000,Graham,no,1053.107
+2000000,Graham,si,635.806
+2000000,Jarvis,no,1322.058
+2000000,Jarvis,si,749.932
+5000000,Graham,no,2795.111
+5000000,Graham,si,1242.706
+5000000,Jarvis,no,2873.801
+5000000,Jarvis,si,1289.481

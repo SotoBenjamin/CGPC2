@@ -1,0 +1,20 @@
+--- Test2: Broder circle ------
+Size,Alg,Prefilter,Time(ms)
+1000,Graham,no,0.910
+1000,Graham,si,1.169
+1000,Jarvis,no,21.902
+1000,Jarvis,si,17.771
+10000,Graham,no,5.748
+10000,Graham,si,7.049
+10000,Jarvis,no,1359.479
+10000,Jarvis,si,1364.567
+100000,Graham,no,56.178
+100000,Graham,si,66.600
+100000,Jarvis,no,133848.769
+100000,Jarvis,si,134853.220
+1000000,Graham,no,628.874
+1000000,Graham,si,738.367
+2000000,Graham,no,1328.913
+2000000,Graham,si,1519.368
+5000000,Graham,no,3513.505
+5000000,Graham,si,4094.580

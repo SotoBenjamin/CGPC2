@@ -1,0 +1,26 @@
+--- Test4: Rectangle Border ------
+Size,Alg,Prefilter,Time(ms)
+1000,Graham,no,0.689
+1000,Graham,si,0.973
+1000,Jarvis,no,0.505
+1000,Jarvis,si,0.702
+10000,Graham,no,6.418
+10000,Graham,si,8.169
+10000,Jarvis,no,3.606
+10000,Jarvis,si,5.534
+100000,Graham,no,44.742
+100000,Graham,si,57.090
+100000,Jarvis,no,26.187
+100000,Jarvis,si,43.146
+1000000,Graham,no,477.391
+1000000,Graham,si,642.431
+1000000,Jarvis,no,269.219
+1000000,Jarvis,si,436.569
+2000000,Graham,no,1006.299
+2000000,Graham,si,1352.270
+2000000,Jarvis,no,564.824
+2000000,Jarvis,si,862.262
+5000000,Graham,no,2773.302
+5000000,Graham,si,3498.197
+5000000,Jarvis,no,1475.239
+5000000,Jarvis,si,2216.309

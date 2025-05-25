@@ -1,0 +1,26 @@
+--- Test1: Inside circle ------
+Size,Alg,Prefilter,Time(ms)
+1000,Graham,no,0.752
+1000,Graham,si,0.362
+1000,Jarvis,no,0.901
+1000,Jarvis,si,0.400
+10000,Graham,no,7.353
+10000,Graham,si,2.879
+10000,Jarvis,no,13.144
+10000,Jarvis,si,3.941
+100000,Graham,no,47.207
+100000,Graham,si,19.038
+100000,Jarvis,no,178.781
+100000,Jarvis,si,50.398
+1000000,Graham,no,517.872
+1000000,Graham,si,197.185
+1000000,Jarvis,no,3683.033
+1000000,Jarvis,si,855.655
+2000000,Graham,no,1087.762
+2000000,Graham,si,414.063
+2000000,Jarvis,no,9427.258
+2000000,Jarvis,si,2172.716
+5000000,Graham,no,2834.430
+5000000,Graham,si,1047.042
+5000000,Jarvis,no,35117.648
+5000000,Jarvis,si,7762.541
